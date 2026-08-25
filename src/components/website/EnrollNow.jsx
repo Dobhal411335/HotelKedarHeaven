@@ -26,7 +26,7 @@ const EnrollNow = () => {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "HotelShivGanga",
+          title: "Hotel Kedar Heaven",
           url: window.location.href,
         });
       } catch (err) {

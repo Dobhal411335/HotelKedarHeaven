@@ -117,14 +117,14 @@ export function HeroSection() {
           </h1>
 
           <p className="mt-6 max-w-md font-body text-sm leading-[1.85] text-white/65 lg:text-lg">
-            HotelShivGanga is a quiet sanctuary — built for
+            Hotel Kedar Heaven is a quiet sanctuary — built for
             travellers who want to slow down, sit with themselves, and return
             softer than they came.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <Link
-              href="/retreats"
+              href="/plan-your-own"
               className="inline-flex h-11 items-center gap-2 rounded-button bg-primary px-7 font-body text-sm text-white transition-colors hover:bg-primary-hover"
             >
               Explore retreats
@@ -186,8 +186,8 @@ export function HeroSection() {
                 key={index}
                 onClick={() => desktopApi?.scrollTo(index)}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${index === desktopSelectedIndex
-                    ? "bg-white w-6"
-                    : "bg-white/50"
+                  ? "bg-white w-6"
+                  : "bg-white/50"
                   }`}
                 aria-label={`Go to slide ${index + 1}`}
               />
@@ -234,8 +234,8 @@ export function HeroSection() {
                   type="button"
                   onClick={() => mobileApi?.scrollTo(index)}
                   className={`h-2 rounded-full transition-all duration-300 ${index === mobileSelectedIndex
-                      ? "w-6 bg-white"
-                      : "w-2 bg-white/60"
+                    ? "w-6 bg-white"
+                    : "w-2 bg-white/60"
                     }`}
                   aria-label={`Go to slide ${index + 1}`}
                 />

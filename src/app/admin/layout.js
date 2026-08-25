@@ -1,7 +1,7 @@
 export const metadata = {
   title: {
-    default: "HotelShivGanga CMS",
-    template: "%s | HotelShivGanga CMS",
+    default: "Hotel Kedar Heaven CMS",
+    template: "%s | Hotel Kedar Heaven CMS",
   },
   robots: {
     index: false,

@@ -32,9 +32,9 @@ async function getTestimonials() {
 }
 
 export const metadata = {
-  title: "Testimonials | HotelShivGanga",
+  title: "Testimonials | Hotel Kedar Heaven",
   description:
-    "Stories from guests who found quiet, clarity, and peace at HotelShivGanga.",
+    "Stories from guests who found quiet, clarity, and peace at Hotel Kedar Heaven.",
 };
 
 export default async function TestimonialsPage() {
