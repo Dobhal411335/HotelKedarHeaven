@@ -14,7 +14,7 @@ const OverlayButton = () => {
             call: "+9198378 21302", // Call phone number
             whatsapp: "+9198378 21302", // WhatsApp number
             call_to_action: "Hotel Kedar", // Call to action
-            button_color: "#FF6550", // Color of button
+            button_color: "#78874f", // Color of button
             position: "right", // Position may be 'right' or 'left'
             order: "call,whatsapp", // Order of buttons
             pre_filled_message: "Dear Team Hotel Kedar Heaven Greetings We are interested in visiting Sitapur, Kedarnath in the coming days and would like to check your Retreats availability. Could you please share your current availability, along with the best available offers, seasonal packages, or group rates for our dates? Providing these details at your earliest convenience will help us finalize our travel plans smoothly. Looking forward to your prompt response.", // WhatsApp pre-filled message
